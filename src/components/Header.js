@@ -1,3 +1,4 @@
+import logo from "../assets/images/logo.jpg";
 
 export default function Header() {
   return (
@@ -13,7 +14,7 @@ export default function Header() {
             </div>
             <div className="col-sm-12 col-md-6 col-lg-7 d-flex topper align-items-center text-lg-right justify-content-end">
               <p className="mb-0 register-link">
-                <a  href="/contact" className="btn btn-primary">
+                <a  href="./#/contact" className="btn btn-primary">
                   Contact Us
                 </a>
               </p>
@@ -26,7 +27,7 @@ export default function Header() {
           <div className="row d-flex align-items-start align-items-center px-3 px-md-0">
             <div className="col-md-4 d-flex mb-2 mb-md-0">
               <a className="navbar-brand d-flex align-items-center" href="/">
-                <img src="/images/logo.jpg" alt="Eurosteel shpk" width={61} height={70} />
+                <img src={logo} alt="Eurosteel shpk" width={61} height={70} />
                 <span className="ml-2">
                   <small>Eurosteel shpk</small>
                 </span>
@@ -77,28 +78,28 @@ export default function Header() {
           <div className="collapse navbar-collapse" id="ftco-nav">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
-                <a  href="/" className="nav-link">
+                <a  href="./#" className="nav-link">
                   Home
                 </a>
               </li>
 
               <li className="nav-item">
-                <a href="/services" className="nav-link">
+                <a href="./#/services" className="nav-link">
                   Services
                 </a>
               </li>
                             <li className="nav-item">
-                <a  href="/services" className="nav-link">
+                <a  href="./#/services" className="nav-link">
                   Projects
                 </a>
               </li>
               <li className="nav-item">
-                <a  href="/about" className="nav-link">
+                <a  href="./#/about" className="nav-link">
                   About Us
                 </a>
               </li>
               <li className="nav-item">
-                <a  href="/contact" className="nav-link">
+                <a  href="./#/contact" className="nav-link">
                   Contact Us
                 </a>
               </li>

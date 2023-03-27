@@ -59,7 +59,7 @@ export default function Contact() {
                   </div>
                   <div className="text">
                     <p>
-                      <span>Website</span> <a href="#">eurosteel.al</a>
+                      <span>Website</span> <a href="./#">eurosteel.al</a>
                     </p>
                   </div>
                 </div>

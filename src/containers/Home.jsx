@@ -1,7 +1,6 @@
-
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -22,13 +21,11 @@ export default function Home() {
                 <div className="mt-5">
                   <h1 className="mb-4">We Build Great Projects</h1>
                   <p className="mb-4">
-                    Our goal is to meet the needs of clients through the
-                    creation of distinctive and avant-garde works, able to
-                    combine functionality, beauty and respect for the
-                    environment. 
-                    </p>
+                    Our goal is to meet the needs of clients through the creation of distinctive and avant-garde works, able to combine functionality,
+                    beauty and respect for the environment.
+                  </p>
                   <p>
-                    <Link href="/services" className="btn btn-primary">
+                    <Link href="/#/services" className="btn btn-primary">
                       Our Services
                     </Link>
                   </p>
@@ -47,8 +44,10 @@ export default function Home() {
                   </div>
                   <div className="media-body pl-4">
                     <h3 className="heading mb-3">Eurosteel Technology Spa</h3>
-                    <p>is a worldwide, leading company that provides special and innovative solutions for handling and lifting purposes. 
-                      Our lengthy experience and valuable expertise enable us to be at the forefront of the special equipment field.</p>
+                    <p>
+                      is a worldwide, leading company that provides special and innovative solutions for handling and lifting purposes. Our lengthy
+                      experience and valuable expertise enable us to be at the forefront of the special equipment field.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -59,8 +58,11 @@ export default function Home() {
                   </div>
                   <div className="media-body pl-4">
                     <h3 className="heading mb-3">Mission</h3>
-                    <p>We aim at studying and designing the best tailor-made solutions so as to be a key partner in our customers’ challenges and projects. Our mission is to find the perfect way to do it, always and everywhere, with no limits.
-We are by your side, worldwide.</p>
+                    <p>
+                      We aim at studying and designing the best tailor-made solutions so as to be a key partner in our customers’ challenges and
+                      projects. Our mission is to find the perfect way to do it, always and everywhere, with no limits. We are by your side,
+                      worldwide.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -71,7 +73,11 @@ We are by your side, worldwide.</p>
                   </div>
                   <div className="media-body pl-4">
                     <h3 className="heading mb-3">Solutions</h3>
-                    <p>Our team of engineers and experienced technicians constantly work to provide customized equipment, designed to meet the client’s specific needs. From the very standard to the most complex model, up to what is yet to be invented, we are ready to design and supply it.</p>
+                    <p>
+                      Our team of engineers and experienced technicians constantly work to provide customized equipment, designed to meet the client’s
+                      specific needs. From the very standard to the most complex model, up to what is yet to be invented, we are ready to design and
+                      supply it.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -100,7 +106,9 @@ We are by your side, worldwide.</p>
                       <h3>We're in this business since 1975 and We provide the best insdustrial services</h3>
                     </div>
                     <p>
-                    Eurosteel operates worldwide in the design, supply and erection of complex steel structures ranging from bridges and stadiums, to architecturally complex buildings and structures for the Off-shore and Oil & Gas sectors, these being either commodities (pipes, plate girders, etc..) or complete assemblies (modules, platforms, pressure vessels, etc.).
+                      Eurosteel operates worldwide in the design, supply and erection of complex steel structures ranging from bridges and stadiums,
+                      to architecturally complex buildings and structures for the Off-shore and Oil & Gas sectors, these being either commodities
+                      (pipes, plate girders, etc..) or complete assemblies (modules, platforms, pressure vessels, etc.).
                     </p>
                     <div className="d-flex video-image align-items-center mt-md-4">
                       <a href="#" className="video img d-flex align-items-center justify-content-center">
@@ -123,7 +131,7 @@ We are by your side, worldwide.</p>
                   <h2>TECHNICAL AND COMMERCIAL ASSISTANCE</h2>
                   <p>We develop your projects looking for the most constructive and economical solution.</p>
                   <p className="mb-0">
-                    <Link href="/contact" className="btn btn-primary px-4 py-3">
+                    <Link href="./#/contact" className="btn btn-primary px-4 py-3">
                       Contact Us
                     </Link>
                   </p>
@@ -212,9 +220,14 @@ We are by your side, worldwide.</p>
                 <div className="heading-section heading-section-white p-4 pl-md-0 py-md-5 pr-md-5">
                   <span className="subheading">Eurosteel A Construction Company</span>
                   <h2 className="mb-4">Best Provider for Industrial Services</h2>
-                  <h4>We operate worldwide in the design, supply and erection of complex steel structures ranging from bridges and stadiums, to architecturally complex buildings and structures for the Off-shore and Oil & Gas sectors, these being either commodities</h4>
+                  <h4>
+                    We operate worldwide in the design, supply and erection of complex steel structures ranging from bridges and stadiums, to
+                    architecturally complex buildings and structures for the Off-shore and Oil & Gas sectors, these being either commodities
+                  </h4>
                   <p>
-                  We operate worldwide in the design, supply and erection of complex steel structures ranging from bridges and stadiums, to architecturally complex buildings and structures for the Off-shore and Oil & Gas sectors, these being either commodities (pipes, plate girders, etc..) or complete assemblies (modules, platforms, pressure vessels, etc.)
+                    We operate worldwide in the design, supply and erection of complex steel structures ranging from bridges and stadiums, to
+                    architecturally complex buildings and structures for the Off-shore and Oil & Gas sectors, these being either commodities (pipes,
+                    plate girders, etc..) or complete assemblies (modules, platforms, pressure vessels, etc.)
                   </p>
                 </div>
               </div>
@@ -361,7 +374,7 @@ We are by your side, worldwide.</p>
         </section>
       </main>
 
-<Footer/>
+      <Footer />
     </div>
   );
 }
