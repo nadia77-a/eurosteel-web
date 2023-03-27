@@ -1,6 +1,10 @@
+import React, { useState, useEffect, useMemo } from "react";
 import logo from "../assets/images/logo.jpg";
 
 export default function Header() {
+
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
+
   return (
     <header>
       <div className="py-1 top">
@@ -28,13 +32,10 @@ export default function Header() {
             <div className="col-md-4 d-flex mb-2 mb-md-0">
               <a className="navbar-brand d-flex align-items-center" href="/">
                 <img src={logo} alt="Eurosteel shpk" width={61} height={70} />
-                <span className="ml-2">
-                  <small>Eurosteel shpk</small>
-                </span>
-                {/* <span className="flaticon flaticon-crane"></span>
-                <span className="ml-2">
-                  Wilcon <small>Construction Company</small>
-                </span> */}
+                <div className="description">
+                  <span className="title"> Eurosteel shpk </span>
+                  <span className="subTitle"> Steel consctruction </span>
+                </div>
               </a>
             </div>
             <div className="col-md-4 d-flex topper mb-md-0 mb-2 align-items-center">
@@ -72,10 +73,11 @@ export default function Header() {
             aria-controls="ftco-nav"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            onClick={()=>setShowMobileMenu(!showMobileMenu)}
           >
             <span className="fa fa-bars"></span> Menu
           </button>
-          <div className="collapse navbar-collapse" id="ftco-nav">
+          <div className={"collapse navbar-collapse" + (showMobileMenu ? " show":"")} id="ftco-nav">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
                 <a  href="./#" className="nav-link">

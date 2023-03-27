@@ -1193,6 +1193,19 @@ fieldset:disabled a.btn {
 .navbar-brand:focus {
   text-decoration: none;
 }
+.navbar-brand .description {
+  padding-left: 10px;
+}
+.description .title {
+  font-size: 15px;
+  line-height: normal;
+}
+.description .subTitle{
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 17px;
+    line-height: normal;
+}
 
 .navbar-nav {
   display: -webkit-box;
@@ -4607,4 +4620,9 @@ textarea.form-control {
 }
 .modal-content .modal-body {
   border: none;
+}
+
+
+.hero-wrap-2.about {
+  background-image: url(../../src/assets/images/bg_2.jpg);
 }
