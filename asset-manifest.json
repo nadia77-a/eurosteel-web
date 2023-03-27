@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/eurosteel-web/static/css/main.569f42ce.css",
-    "main.js": "/eurosteel-web/static/js/main.c89a4651.js",
+    "main.css": "/eurosteel-web/static/css/main.72a606ab.css",
+    "main.js": "/eurosteel-web/static/js/main.dc89ca7a.js",
     "static/js/787.28cb0dcd.chunk.js": "/eurosteel-web/static/js/787.28cb0dcd.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/eurosteel-web/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/bg_home.jpg": "/eurosteel-web/static/media/bg_home.bb2e35251438ec60db4f.jpg",
@@ -17,14 +17,18 @@
     "static/media/about.jpg": "/eurosteel-web/static/media/about.917770cbf25a14e8ea32.jpg",
     "static/media/about-3.jpg": "/eurosteel-web/static/media/about-3.fed9046a18046e9f8dc4.jpg",
     "static/media/services-1.jpg": "/eurosteel-web/static/media/services-1.3eae366a8fc7e2cb6ada.jpg",
+    "static/media/Flaticon.svg": "/eurosteel-web/static/media/Flaticon.860de3191c907107cd6c.svg",
     "static/media/logo.jpg": "/eurosteel-web/static/media/logo.be4bab6813a450fc702b.jpg",
+    "static/media/Flaticon.eot": "/eurosteel-web/static/media/Flaticon.a860126c067e12cc2f9f.eot",
+    "static/media/Flaticon.ttf": "/eurosteel-web/static/media/Flaticon.b9949190740ab8e3ce6a.ttf",
+    "static/media/Flaticon.woff": "/eurosteel-web/static/media/Flaticon.351393b3ca9ff8fa150d.woff",
     "index.html": "/eurosteel-web/index.html",
-    "main.569f42ce.css.map": "/eurosteel-web/static/css/main.569f42ce.css.map",
-    "main.c89a4651.js.map": "/eurosteel-web/static/js/main.c89a4651.js.map",
+    "main.72a606ab.css.map": "/eurosteel-web/static/css/main.72a606ab.css.map",
+    "main.dc89ca7a.js.map": "/eurosteel-web/static/js/main.dc89ca7a.js.map",
     "787.28cb0dcd.chunk.js.map": "/eurosteel-web/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.569f42ce.css",
-    "static/js/main.c89a4651.js"
+    "static/css/main.72a606ab.css",
+    "static/js/main.dc89ca7a.js"
   ]
 }
