@@ -1,17 +1,15 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
 
-export default function Home() {
+ const Home = (props) => {
+  const {activeRoute,setActive} = props;
+  useEffect(() => {
+    setActive("home");
+  }, [setActive]);
   return (
     <div>
-      {/* <Head>
-        <title>Construction Website</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head> */}
-
-      <Header />
-
+      <Header  activeRoute={activeRoute} setActive={setActive}/>
       <main>
         <section className="hero-wrap js-fullheight home">
           <div className="overlay"></div>
@@ -25,9 +23,9 @@ export default function Home() {
                     beauty and respect for the environment.
                   </p>
                   <p>
-                    <Link href="/#/services" className="btn btn-primary">
+                    <a href="./#/services" className="btn btn-primary">
                       Our Services
-                    </Link>
+                    </a>
                   </p>
                 </div>
               </div>
@@ -131,9 +129,9 @@ export default function Home() {
                   <h2>TECHNICAL AND COMMERCIAL ASSISTANCE</h2>
                   <p>We develop your projects looking for the most constructive and economical solution.</p>
                   <p className="mb-0">
-                    <Link href="./#/contact" className="btn btn-primary px-4 py-3">
+                    <a href="./#/contact" className="btn btn-primary px-4 py-3">
                       Contact Us
-                    </Link>
+                    </a>
                   </p>
                 </div>
               </div>
@@ -378,3 +376,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home

@@ -837,8 +837,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #197dc5;
+  border-color: #197dc5;
 }
 .btn-primary:hover {
   color: #fff;
@@ -2577,6 +2577,10 @@ h5,
   background: #df8602;
   color: #fff;
 }
+.ftco-navbar-light .navbar-nav > .nav-item:hover a {
+  background: #df8602;
+  color: #fff;
+}
 @media (max-width: 991.98px) {
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
     color: #fff;
@@ -2815,15 +2819,9 @@ h5,
 .btn:focus {
   outline: none;
 }
-.btn.btn-primary {
-  background: #df8602;
-  border: 1px solid #df8602 !important;
-  color: #fff !important;
-}
 .btn.btn-primary:hover {
   border: 1px solid #df8602;
   background: #df8602;
-  color: #df8602;
 }
 .btn.btn-secondary {
   background: #040e26 !important;
@@ -2895,7 +2893,7 @@ h5,
   right: 0;
   width: 90px;
   height: 120px;
-  background: #df8602;
+  background: #197dc5;
   margin-right: -45px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);

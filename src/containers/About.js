@@ -1,9 +1,16 @@
 import Header from "../components/Header";
+import Footer from "../components/Footer";
+import React, { useEffect } from "react";
 
-export default function About() {
+const About = (props) => {
+  const { activeRoute, setActive } = props;
+  useEffect(() => {
+    setActive("about");
+  }, [setActive]);
+
   return (
     <>
-      <Header />
+      <Header activeRoute={activeRoute} setActive={setActive}/>
       <section className="about hero-wrap hero-wrap-2" data-stellar-background-ratio="0.5">
         <div className="overlay"></div>
         <div className="container">
@@ -11,7 +18,7 @@ export default function About() {
             <div className="col-md-9 ftco-animate pb-5 fadeInUp ftco-animated">
               <p className="breadcrumbs">
                 <span className="mr-2">
-                  <a href="index.html">
+                  <a href="./#">
                     Home <i className="fa fa-chevron-right"></i>
                   </a>
                 </span>{" "}
@@ -63,6 +70,9 @@ export default function About() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
-}
+};
+
+export default About;

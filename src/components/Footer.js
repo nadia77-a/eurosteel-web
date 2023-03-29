@@ -34,22 +34,22 @@ export default function Footer() {
               <div className="d-flex">
                 <ul className="list-unstyled mr-md-4">
                   <li>
-                    <a href="#">
+                    <a href="./#/services">
                       <span className="fa fa-chevron-right mr-2"></span>Projects
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="./#/services">
                       <span className="fa fa-chevron-right mr-2"></span>Services
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="./#/about">
                       <span className="fa fa-chevron-right mr-2"></span>About Us
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="./#/contact">
                       <span className="fa fa-chevron-right mr-2"></span>Contact Us
                     </a>
                   </li>

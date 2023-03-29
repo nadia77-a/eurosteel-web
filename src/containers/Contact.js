@@ -1,13 +1,36 @@
 
 import Header from "../components/Header";
+import Footer from "../components/Footer";
+import React, { useEffect } from "react";
 
-export default function Contact() {
+const Contact = (props) =>{
+  const { activeRoute, setActive } = props;
+  useEffect(() => {
+    setActive("contact");
+  }, [setActive]);
   return (
     <>
-      {/* <Head>
-        <title>Our Contact | My Construction Website</title>
-      </Head> */}
-      <Header />
+      <Header  activeRoute={activeRoute} setActive={setActive}/>
+      <section className="about hero-wrap hero-wrap-2" data-stellar-background-ratio="0.5">
+        <div className="overlay"></div>
+        <div className="container">
+          <div className="row no-gutters slider-text align-items-end justify-content-start">
+            <div className="col-md-9 ftco-animate pb-5 fadeInUp ftco-animated">
+              <p className="breadcrumbs">
+                <span className="mr-2">
+                  <a href="./#">
+                    Home <i className="fa fa-chevron-right"></i>
+                  </a>
+                </span>{" "}
+                <span>
+                  Contact Us <i className="fa fa-chevron-right"></i>
+                </span>
+              </p>
+              <h1 className="mb-3 bread">Contact Us</h1>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="ftco-section contact-section ftco-no-pb" id="contact-section">
         <div className="container">
@@ -20,7 +43,7 @@ export default function Contact() {
           <div className="row block-9">
             <div className="col-md-8">
               <div className="map">
-              <div class="mapouter"><div class="gmap_canvas">
+              <div className="mapouter"><div className="gmap_canvas">
                 <iframe 
                 src="https://maps.google.com/maps?q=rruga%20Ismet%20Gusia%2036,%20Tirane,%20Albania&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" 
                 title = "Address"
@@ -95,6 +118,8 @@ export default function Contact() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }
+export default Contact

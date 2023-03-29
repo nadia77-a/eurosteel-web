@@ -1,10 +1,9 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState } from "react";
 import logo from "../assets/images/logo.jpg";
 
-export default function Header() {
-
+const Header = (props) =>{
+  const {activeRoute, setActive} = props;
   const [showMobileMenu, setShowMobileMenu] = useState(false);
-
   return (
     <header>
       <div className="py-1 top">
@@ -18,7 +17,7 @@ export default function Header() {
             </div>
             <div className="col-sm-12 col-md-6 col-lg-7 d-flex topper align-items-center text-lg-right justify-content-end">
               <p className="mb-0 register-link">
-                <a  href="./#/contact" className="btn btn-primary">
+                <a href="./#/contact" className="btn btn-primary">
                   Contact Us
                 </a>
               </p>
@@ -73,35 +72,35 @@ export default function Header() {
             aria-controls="ftco-nav"
             aria-expanded="false"
             aria-label="Toggle navigation"
-            onClick={()=>setShowMobileMenu(!showMobileMenu)}
+            onClick={() => setShowMobileMenu(!showMobileMenu)}
           >
             <span className="fa fa-bars"></span> Menu
           </button>
-          <div className={"collapse navbar-collapse" + (showMobileMenu ? " show":"")} id="ftco-nav">
+          <div className={"collapse navbar-collapse" + (showMobileMenu ? " show" : "")} id="ftco-nav">
             <ul className="navbar-nav mr-auto">
-              <li className="nav-item active">
-                <a  href="./#" className="nav-link">
+              <li className={"nav-item a"+ (activeRoute ==="home" ? " active":"")} onClick={()=>setActive("home")}>
+                <a href="./#" className="nav-link">
                   Home
                 </a>
               </li>
 
-              <li className="nav-item">
+              <li className={"nav-item" + (activeRoute ==="services" ? " active":"")} onClick={()=>setActive("services")}>
                 <a href="./#/services" className="nav-link">
                   Services
                 </a>
               </li>
-                            <li className="nav-item">
-                <a  href="./#/services" className="nav-link">
+              <li className={"nav-item" + (activeRoute ==="projects" ? " active":"")} onClick={()=>setActive("projects")}>
+                <a href="./#/projects" className="nav-link">
                   Projects
                 </a>
               </li>
-              <li className="nav-item">
-                <a  href="./#/about" className="nav-link">
+              <li className={"nav-item" + (activeRoute ==="about" ? " active":"")} onClick={()=>setActive("about")}>
+                <a href="./#/about" className="nav-link">
                   About Us
                 </a>
               </li>
-              <li className="nav-item">
-                <a  href="./#/contact" className="nav-link">
+              <li className={"nav-item" + (activeRoute ==="contact" ? " active":"")} onClick={()=>setActive("contact")}>
+                <a href="./#/contact" className="nav-link">
                   Contact Us
                 </a>
               </li>
@@ -112,3 +111,5 @@ export default function Header() {
     </header>
   );
 }
+
+export default  Header
