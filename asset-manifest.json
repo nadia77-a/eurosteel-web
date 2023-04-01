@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/eurosteel-web/static/css/main.6c4d177c.css",
-    "main.js": "/eurosteel-web/static/js/main.de69e5c5.js",
+    "main.js": "/eurosteel-web/static/js/main.67caadf3.js",
     "static/js/787.28cb0dcd.chunk.js": "/eurosteel-web/static/js/787.28cb0dcd.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/eurosteel-web/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/eurosteel-web/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -24,11 +24,11 @@
     "static/media/Flaticon.woff": "/eurosteel-web/static/media/Flaticon.351393b3ca9ff8fa150d.woff",
     "index.html": "/eurosteel-web/index.html",
     "main.6c4d177c.css.map": "/eurosteel-web/static/css/main.6c4d177c.css.map",
-    "main.de69e5c5.js.map": "/eurosteel-web/static/js/main.de69e5c5.js.map",
+    "main.67caadf3.js.map": "/eurosteel-web/static/js/main.67caadf3.js.map",
     "787.28cb0dcd.chunk.js.map": "/eurosteel-web/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6c4d177c.css",
-    "static/js/main.de69e5c5.js"
+    "static/js/main.67caadf3.js"
   ]
 }
