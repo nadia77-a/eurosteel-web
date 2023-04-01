@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/eurosteel-web/static/css/main.5dd3e5c7.css",
-    "main.js": "/eurosteel-web/static/js/main.226bf6db.js",
+    "main.css": "/eurosteel-web/static/css/main.6c4d177c.css",
+    "main.js": "/eurosteel-web/static/js/main.e80c531f.js",
     "static/js/787.28cb0dcd.chunk.js": "/eurosteel-web/static/js/787.28cb0dcd.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/eurosteel-web/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/bg_home.jpg": "/eurosteel-web/static/media/bg_home.bb2e35251438ec60db4f.jpg",
     "static/media/fontawesome-webfont.eot": "/eurosteel-web/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/eurosteel-web/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/bg_home.jpg": "/eurosteel-web/static/media/bg_home.b320d4ae759c3e971a8d.jpg",
     "static/media/project-1.jpg": "/eurosteel-web/static/media/project-1.3ebc154ed78b40bf7fc2.jpg",
     "static/media/services-2.jpg": "/eurosteel-web/static/media/services-2.3ebc154ed78b40bf7fc2.jpg",
     "static/media/bg_2.jpg": "/eurosteel-web/static/media/bg_2.4c1bd40b063146e47ef9.jpg",
@@ -23,12 +23,12 @@
     "static/media/Flaticon.ttf": "/eurosteel-web/static/media/Flaticon.b9949190740ab8e3ce6a.ttf",
     "static/media/Flaticon.woff": "/eurosteel-web/static/media/Flaticon.351393b3ca9ff8fa150d.woff",
     "index.html": "/eurosteel-web/index.html",
-    "main.5dd3e5c7.css.map": "/eurosteel-web/static/css/main.5dd3e5c7.css.map",
-    "main.226bf6db.js.map": "/eurosteel-web/static/js/main.226bf6db.js.map",
+    "main.6c4d177c.css.map": "/eurosteel-web/static/css/main.6c4d177c.css.map",
+    "main.e80c531f.js.map": "/eurosteel-web/static/js/main.e80c531f.js.map",
     "787.28cb0dcd.chunk.js.map": "/eurosteel-web/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dd3e5c7.css",
-    "static/js/main.226bf6db.js"
+    "static/css/main.6c4d177c.css",
+    "static/js/main.e80c531f.js"
   ]
 }
