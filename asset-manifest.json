@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/eurosteel-web/static/css/main.d105c6bc.css",
-    "main.js": "/eurosteel-web/static/js/main.1d21c16b.js",
+    "main.css": "/eurosteel-web/static/css/main.25b1ce2e.css",
+    "main.js": "/eurosteel-web/static/js/main.7ab22fe6.js",
     "static/js/787.28cb0dcd.chunk.js": "/eurosteel-web/static/js/787.28cb0dcd.chunk.js",
     "static/media/about.jpg": "/eurosteel-web/static/media/about.7c9af6c7d7aadb694b1b.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/eurosteel-web/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -23,12 +23,12 @@
     "static/media/Flaticon.ttf": "/eurosteel-web/static/media/Flaticon.b9949190740ab8e3ce6a.ttf",
     "static/media/Flaticon.woff": "/eurosteel-web/static/media/Flaticon.351393b3ca9ff8fa150d.woff",
     "index.html": "/eurosteel-web/index.html",
-    "main.d105c6bc.css.map": "/eurosteel-web/static/css/main.d105c6bc.css.map",
-    "main.1d21c16b.js.map": "/eurosteel-web/static/js/main.1d21c16b.js.map",
+    "main.25b1ce2e.css.map": "/eurosteel-web/static/css/main.25b1ce2e.css.map",
+    "main.7ab22fe6.js.map": "/eurosteel-web/static/js/main.7ab22fe6.js.map",
     "787.28cb0dcd.chunk.js.map": "/eurosteel-web/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d105c6bc.css",
-    "static/js/main.1d21c16b.js"
+    "static/css/main.25b1ce2e.css",
+    "static/js/main.7ab22fe6.js"
   ]
 }
